@@ -1,0 +1,184 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "gender": "male",
+        "city": "Mulino",
+        "age": 36,
+        "username": "Randall_1806",
+        "name": "Deleon Head",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 2,
+        "gender": "male",
+        "city": "Lindcove",
+        "age": 22,
+        "username": "Bradshaw_107",
+        "name": "Reid Pollard",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 3,
+        "gender": "male",
+        "city": "Ripley",
+        "age": 31,
+        "username": "Garcia_1538",
+        "name": "Randi Bell",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 4,
+        "gender": "female",
+        "city": "Bakersville",
+        "age": 23,
+        "username": "Trujillo_857",
+        "name": "Valerie Bentley",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 5,
+        "gender": "female",
+        "city": "Orick",
+        "age": 26,
+        "username": "Bates_1384",
+        "name": "Bridget Wallace",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 6,
+        "gender": "female",
+        "city": "Rutherford",
+        "age": 26,
+        "username": "Hawkins_614",
+        "name": "Katrina Sweeney",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 7,
+        "gender": "female",
+        "city": "Winfred",
+        "age": 22,
+        "username": "Coffey_177",
+        "name": "Leach Colon",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 8,
+        "gender": "male",
+        "city": "Chelsea",
+        "age": 40,
+        "username": "Chavez_1719",
+        "name": "Wiley Velasquez",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 9,
+        "gender": "male",
+        "city": "Morriston",
+        "age": 35,
+        "username": "Forbes_745",
+        "name": "Frank Harper",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 10,
+        "gender": "male",
+        "city": "Madrid",
+        "age": 30,
+        "username": "Hanson_1233",
+        "name": "Katelyn Cruz",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 11,
+        "gender": "female",
+        "city": "Florence",
+        "age": 34,
+        "username": "Gilmore_827",
+        "name": "Angelique Reed",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 12,
+        "gender": "female",
+        "city": "Gila",
+        "age": 36,
+        "username": "Soto_997",
+        "name": "Benita Watkins",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 13,
+        "gender": "female",
+        "city": "Conway",
+        "age": 32,
+        "username": "Bowen_686",
+        "name": "Darlene Hammond",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 14,
+        "gender": "female",
+        "city": "Takilma",
+        "age": 32,
+        "username": "Britt_708",
+        "name": "Goodman Sampson",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 15,
+        "gender": "male",
+        "city": "Dowling",
+        "age": 39,
+        "username": "Carroll_258",
+        "name": "Cox Kinney",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 16,
+        "gender": "male",
+        "city": "Accoville",
+        "age": 22,
+        "username": "Stewart_1634",
+        "name": "Davis Mcpherson",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 17,
+        "gender": "male",
+        "city": "Robbins",
+        "age": 40,
+        "username": "Fleming_515",
+        "name": "Lowery Copeland",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 18,
+        "gender": "male",
+        "city": "Summerset",
+        "age": 40,
+        "username": "Gordon_2000",
+        "name": "Frost Chaney",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 19,
+        "gender": "female",
+        "city": "Ogema",
+        "age": 37,
+        "username": "Graves_382",
+        "name": "Beatriz Mooney",
+        "image_thumb": "https://via.placeholder.com/120"
+      },
+      {
+        "id": 20,
+        "gender": "female",
+        "city": "Salix",
+        "age": 22,
+        "username": "Butler_493",
+        "name": "Bruce Patton",
+        "image_thumb": "https://via.placeholder.com/120"
+      }
+    ]
+  }
