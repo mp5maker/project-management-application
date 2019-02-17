@@ -7,9 +7,9 @@ class Error404 extends Component {
 
     render() {
         return(
-            <Fragment>
+            <div className="content">
                 Page Not Found
-            </Fragment>
+            </div>
         )
     }
 }

@@ -1,13 +1,14 @@
 import { ActionList } from '../Constants/ActionList'
+
 import { ApiHelper } from '../Api/Routes'
 
 
 const EmployeeListAction = () => (dispatch) => {
-    ApiHelper.getUserList()
+    ApiHelper.getEmployeeList()
     .then((response) => {
         dispatch({
             type: ActionList.employeeList,
-            payload: response.data,
+            payload: response,
             error: false,
             loading: false,
         })
@@ -23,11 +24,11 @@ const EmployeeListAction = () => (dispatch) => {
 }
 
 const EmployeeDetailsAction = ({id}) => (dispatch) => {
-    ApiHelper.getUserDetail({id})
+    ApiHelper.getEmployeeDetails({id})
     .then((response) => {
         dispatch({
             type: ActionList.employeeDetails,
-            payload: response.data,
+            payload: response,
             error: false,
             loading: false,
         })

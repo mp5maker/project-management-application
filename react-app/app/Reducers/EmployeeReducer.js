@@ -3,9 +3,9 @@ import { ActionList } from '../Constants/ActionList'
 
 const EmployeeReducer = (state=InitState, action) => {
     switch(action.type) {
-        case ActionList.employeeListAction:
+        case ActionList.employeeList:
             return action
-        case ActionList.employeeDetailsAction:
+        case ActionList.employeDetails:
             return action
         default: return state
     }

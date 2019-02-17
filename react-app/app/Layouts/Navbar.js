@@ -1,11 +1,5 @@
 import React, { Component, Fragment } from 'react'
 
-import { En } from '../Constants/En'
-
-
-/**
- * Top Navigation Bar Layout
- */
 class Navbar extends Component {
     constructor(props) {
         super(props)
