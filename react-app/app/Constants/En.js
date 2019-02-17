@@ -12,6 +12,8 @@ const En = {
 
     // D
     "DATING": "Dating",
+    "DESIGNATION": "Designation",
+    "DEPARTMENT": "Department",
 
     // E
     "ERROR": "Error",
@@ -28,11 +30,20 @@ const En = {
     "LOADING": "Loading",
     "LIST": "List",
 
+    // J
+    "JOINING_DATE": 'Joining Date',
+
+    // N
+    "NAME": "Name",
+
     // P
     "PLEASE_WAIT": "Please, wait",
     "PROFILE": "Profile",
     "PROJECTS": "Project",
-    "PROJECT_MANGAGEMENT_APPLICATION": "PMR APP"
+    "PROJECT_MANGAGEMENT_APPLICATION": "PMR APP",
+
+    // S
+    "SUBMIT": "Submit",
 }
 
 export { En }
