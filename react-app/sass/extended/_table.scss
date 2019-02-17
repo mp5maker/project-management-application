@@ -1,0 +1,220 @@
+// Table Design
+.table-list {
+    width: 100%;
+    margin-bottom: 15px;
+    table {
+        border-radius: 5px;
+        box-shadow: 0 2px 5px 0 $light-blue, 0 -1px 1px -1px $light-blue;
+        width: 100%;
+        z-index: get-zindex(main);
+        thead {
+            tr {
+                transition: all 0.25s ease-in-out;
+                &:hover {
+                    transition: all 0.25s ease-in-out;
+                    cursor: pointer;
+                    background-color: lighten($light-blue, 15%);
+                    box-shadow: 0 2px 5px 0 $box-shadow-color;
+                    transform: scale(1,1);
+                    border-radius: 5px;
+                }
+                &:first-child {
+                    border-radius: 5px 5px 0 0;
+                }
+                th {
+                    text-transform: uppercase;
+                    color: lighten($black, 30%);
+                    padding: 16px;
+                    word-wrap: break-word;
+                    text-align: left;
+                    &:first-child {
+                        border-radius: 5px 0  0 0;
+                    }
+                    &:last-child {
+                        border-radius: 0 5px 0 0;
+                    }
+                    &.action {
+                        position: relative;
+                        .action-icon {
+                            i {
+                                color: lighten($black, 30%);
+                            }
+                        }
+                    }
+                    &:first-child {
+                        .checkbox {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                &:last-child {
+                    border-radius: 0 0 5px 5px;
+                    td {
+                        &:first-child {
+                            border-radius: 0 0 0 5px;
+                        }
+                        &:last-child {
+                            border-radius: 0 0 5px 0;
+                        }
+                    }
+                }
+                &:nth-child(even){
+                    background-color: $white;
+                }
+                &:nth-child(odd) {
+                    background-color: lighten($light-grey, 6%);
+                }
+                td {
+                    @include word-wrap;
+                    padding: 16px;
+                    color: lighten($black, 5%);
+                    font-weight: 450;
+                    word-wrap: break-word;
+                    text-align: left;
+                    &:first-child {
+                        position: relative;
+                        &::before {
+                            content: "";
+                            transition: all 0.25s ease-in-out;
+                            position: absolute;
+                            transform: translateY(-50%);
+                            height: 0;
+                            top: 50%;
+                            left: 0;
+                            width: 3px;
+                            background-color: $cyan;
+                        }
+                        .checkbox {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .ellipsis {
+                            display: none;
+                        }
+                        .action-dropdown {
+                            position: absolute;
+                            top: 25px;
+                            background-color: $white;
+                            z-index: get-zindex(dropdown);
+                            min-height: 50px;
+                            min-width: 200px;
+                            box-shadow: 0 2px 5px 0 $box-shadow-color;
+                            span {
+                                position: relative;
+                                display: block;
+                                padding: 16px;
+                                margin-left: 0;
+                                text-align: left;
+                                &::after {
+                                    content: attr(data-option);
+                                    position: absolute;
+                                    display: inline-block;
+                                    margin-left: 16px;
+                                }
+                                &:hover {
+                                    background-color: lighten($light-blue, 15%);
+                                }
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    cursor: pointer;
+                    background-color: lighten($light-blue, 15%);
+                    box-shadow: 0 2px 5px 0 $box-shadow-color;
+                    transform: scale(1,1);
+                    td:first-child::before {
+                        height: 100%;
+                    }
+                }
+                &.action-activated:hover {
+                    transform: none;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+// Responsive 767px
+@include create-screen(0, 767px) {
+    .table-list {
+        box-sizing: border-box;
+        &:hover {
+            box-shadow: none;
+        }
+        table {
+            display: block;
+            box-shadow: unset;
+            thead {
+                display: none;
+                tr {
+                    display: none;
+                    th {
+                        display: none;
+                    }
+                }
+            }
+            tbody {
+                display: block;
+                tr {
+                    box-shadow: 0 1px 1px 1px $light-blue; 
+                    display: block;
+                    width: 100%;
+                    border-radius: 5px;
+                    margin-bottom: 12px;
+                    &:hover {
+                        border: none;
+                        transform: none;
+                    }
+                    td {
+                        width: 100%;
+                        display: block;
+                        text-align: right;
+                        @include word-wrap;
+                        border-bottom: 1px solid lighten($light-blue, 12%);
+                        &:first-child {
+                            min-height: 57px;
+                            padding-top: 14px;
+                            padding-bottom: 14px;
+                            .checkbox {
+                                display: block;
+                                float: left;
+                                label {
+                                    margin-top: 14px;
+                                    margin-bottom: 0;
+                                }
+                                span {
+                                    display: none;
+                                }
+                                @include clearfix();
+                            }
+                            .ellipsis {
+                                display: unset;
+                            }
+                            .action-dropdown {
+                                top: 0;
+                                right: 0;
+                            }
+                        }
+                        &::before {
+                            content: attr(data-head);
+                            float: left;
+                            @include word-wrap;
+                        }
+                        &:last-child {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

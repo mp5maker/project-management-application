@@ -35,8 +35,8 @@ const EmployeeDetailsAction = ({id}) => (dispatch) => {
     .catch((error) => {
         dispatch({
             type: ActionList.employeeDetails,
-            payload: error.response,
-            error: false,
+            payload: [],
+            error: error.response,
             loading: false,
         })
     })

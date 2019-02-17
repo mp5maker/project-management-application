@@ -4,6 +4,8 @@
 ## Project Installation ##
 
     npm install
+    npm install -g gulp
+    npm install -g json-server
 
 ## Creating Assets | Looks the changes for the files ## 
 
@@ -20,3 +22,7 @@
 ## Fake Rest Api Server ##
 
     npm run json-server
+
+## Additional Resources ##
+
+    https://www.json-generator.com/

@@ -1,0 +1,46 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin transition-all-25 {
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+@mixin word-wrap {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+@mixin ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@mixin create-circle($dimension, $color) {
+    width: #{$dimension}px;
+    height: #{$dimension}px;
+    background-color: $color;
+    border-radius: 50%;
+}
+
+@mixin text-ellipsis {
+    text-overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@mixin overlay-effect {
+    background-color: darken($box-shadow-color, 10%);
+    * {
+        background-color:  $transparent;
+        color:  darken($box-shadow-color, 10%);
+        border: $transparent;
+    }
+}

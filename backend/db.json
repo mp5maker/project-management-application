@@ -1,184 +1,144 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "gender": "male",
-        "city": "Mulino",
-        "age": 36,
-        "username": "Randall_1806",
-        "name": "Deleon Head",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 2,
-        "gender": "male",
-        "city": "Lindcove",
-        "age": 22,
-        "username": "Bradshaw_107",
-        "name": "Reid Pollard",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 3,
-        "gender": "male",
-        "city": "Ripley",
-        "age": 31,
-        "username": "Garcia_1538",
-        "name": "Randi Bell",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 4,
-        "gender": "female",
-        "city": "Bakersville",
-        "age": 23,
-        "username": "Trujillo_857",
-        "name": "Valerie Bentley",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 5,
-        "gender": "female",
-        "city": "Orick",
-        "age": 26,
-        "username": "Bates_1384",
-        "name": "Bridget Wallace",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 6,
-        "gender": "female",
-        "city": "Rutherford",
-        "age": 26,
-        "username": "Hawkins_614",
-        "name": "Katrina Sweeney",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 7,
-        "gender": "female",
-        "city": "Winfred",
-        "age": 22,
-        "username": "Coffey_177",
-        "name": "Leach Colon",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 8,
-        "gender": "male",
-        "city": "Chelsea",
-        "age": 40,
-        "username": "Chavez_1719",
-        "name": "Wiley Velasquez",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 9,
-        "gender": "male",
-        "city": "Morriston",
-        "age": 35,
-        "username": "Forbes_745",
-        "name": "Frank Harper",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 10,
-        "gender": "male",
-        "city": "Madrid",
-        "age": 30,
-        "username": "Hanson_1233",
-        "name": "Katelyn Cruz",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 11,
-        "gender": "female",
-        "city": "Florence",
-        "age": 34,
-        "username": "Gilmore_827",
-        "name": "Angelique Reed",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 12,
-        "gender": "female",
-        "city": "Gila",
-        "age": 36,
-        "username": "Soto_997",
-        "name": "Benita Watkins",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 13,
-        "gender": "female",
-        "city": "Conway",
-        "age": 32,
-        "username": "Bowen_686",
-        "name": "Darlene Hammond",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 14,
-        "gender": "female",
-        "city": "Takilma",
-        "age": 32,
-        "username": "Britt_708",
-        "name": "Goodman Sampson",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 15,
-        "gender": "male",
-        "city": "Dowling",
-        "age": 39,
-        "username": "Carroll_258",
-        "name": "Cox Kinney",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 16,
-        "gender": "male",
-        "city": "Accoville",
-        "age": 22,
-        "username": "Stewart_1634",
-        "name": "Davis Mcpherson",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 17,
-        "gender": "male",
-        "city": "Robbins",
-        "age": 40,
-        "username": "Fleming_515",
-        "name": "Lowery Copeland",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 18,
-        "gender": "male",
-        "city": "Summerset",
-        "age": 40,
-        "username": "Gordon_2000",
-        "name": "Frost Chaney",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 19,
-        "gender": "female",
-        "city": "Ogema",
-        "age": 37,
-        "username": "Graves_382",
-        "name": "Beatriz Mooney",
-        "image_thumb": "https://via.placeholder.com/120"
-      },
-      {
-        "id": 20,
-        "gender": "female",
-        "city": "Salix",
-        "age": 22,
-        "username": "Butler_493",
-        "name": "Bruce Patton",
-        "image_thumb": "https://via.placeholder.com/120"
-      }
-    ]
-  }
+  "employee": [
+    {
+      "id": 1,
+      "name": "Isabelle Pollard",
+      "designation": "GROK",
+      "joining_date": "2017-01-22T03:50:51 -06:00",
+      "department": "OVOLO"
+    },
+    {
+      "id": 2,
+      "name": "Georgia Love",
+      "designation": "VOLAX",
+      "joining_date": "2018-05-24T07:26:43 -06:00",
+      "department": "VERAQ"
+    },
+    {
+      "id": 3,
+      "name": "Sonja Ayers",
+      "designation": "CYTRAK",
+      "joining_date": "2016-08-11T04:30:00 -06:00",
+      "department": "QUANTASIS"
+    },
+    {
+      "id": 4,
+      "name": "Huber Sweeney",
+      "designation": "ORBIXTAR",
+      "joining_date": "2017-06-15T12:16:41 -06:00",
+      "department": "TETAK"
+    },
+    {
+      "id": 5,
+      "name": "Mueller Cotton",
+      "designation": "EXTRAGENE",
+      "joining_date": "2014-06-30T02:13:32 -06:00",
+      "department": "FANGOLD"
+    },
+    {
+      "id": 6,
+      "name": "Sofia Alston",
+      "designation": "BOVIS",
+      "joining_date": "2016-08-05T02:21:30 -06:00",
+      "department": "VOIPA"
+    },
+    {
+      "id": 7,
+      "name": "Katheryn Gilmore",
+      "designation": "DIGIPRINT",
+      "joining_date": "2016-11-05T09:32:43 -06:00",
+      "department": "GEOSTELE"
+    },
+    {
+      "id": 8,
+      "name": "Benjamin Miranda",
+      "designation": "SNIPS",
+      "joining_date": "2017-05-09T02:09:06 -06:00",
+      "department": "IMPERIUM"
+    },
+    {
+      "id": 9,
+      "name": "Gina Haley",
+      "designation": "TALKOLA",
+      "joining_date": "2015-09-09T11:18:12 -06:00",
+      "department": "VIXO"
+    },
+    {
+      "id": 10,
+      "name": "Cindy Mullins",
+      "designation": "GLUID",
+      "joining_date": "2018-03-21T10:42:38 -06:00",
+      "department": "ENTROFLEX"
+    },
+    {
+      "id": 11,
+      "name": "Ivy Dillard",
+      "designation": "ISOTRONIC",
+      "joining_date": "2018-01-19T06:34:42 -06:00",
+      "department": "TWIIST"
+    },
+    {
+      "id": 12,
+      "name": "Coffey Good",
+      "designation": "ZANILLA",
+      "joining_date": "2016-05-23T02:54:14 -06:00",
+      "department": "DANCERITY"
+    },
+    {
+      "id": 13,
+      "name": "Lelia Dejesus",
+      "designation": "KLUGGER",
+      "joining_date": "2014-01-15T03:37:14 -06:00",
+      "department": "NEOCENT"
+    },
+    {
+      "id": 14,
+      "name": "Wynn Lopez",
+      "designation": "PASTURIA",
+      "joining_date": "2018-04-03T02:36:48 -06:00",
+      "department": "AUSTECH"
+    },
+    {
+      "id": 15,
+      "name": "Lydia Ortega",
+      "designation": "XSPORTS",
+      "joining_date": "2014-04-17T01:06:39 -06:00",
+      "department": "CONFERIA"
+    },
+    {
+      "id": 16,
+      "name": "Jacobs Stark",
+      "designation": "IRACK",
+      "joining_date": "2018-03-16T09:31:51 -06:00",
+      "department": "XYMONK"
+    },
+    {
+      "id": 17,
+      "name": "Charmaine Bates",
+      "designation": "COWTOWN",
+      "joining_date": "2016-09-17T06:56:11 -06:00",
+      "department": "HALAP"
+    },
+    {
+      "id": 18,
+      "name": "Tracey Madden",
+      "designation": "APEX",
+      "joining_date": "2018-04-20T07:16:40 -06:00",
+      "department": "NETILITY"
+    },
+    {
+      "id": 19,
+      "name": "Ratliff Dickerson",
+      "designation": "SCENTY",
+      "joining_date": "2018-07-21T09:41:58 -06:00",
+      "department": "PROFLEX"
+    },
+    {
+      "id": 20,
+      "name": "Hopper Edwards",
+      "designation": "DELPHIDE",
+      "joining_date": "2018-04-23T05:59:57 -06:00",
+      "department": "MUSAPHICS"
+    }
+  ]
+}
