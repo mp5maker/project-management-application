@@ -21,8 +21,10 @@ class App extends Component {
         return (
             <Fragment>
                 <BrowserRouter>
-                    <Fragment>
-                        <Sidebar />
+                    <div className="wrapper">
+                        <div className="sidebar-container">
+                            <Sidebar />
+                        </div>
                         <Switch>
                             {/* Default Page */}
                             <Route exact path={Routes.root} component={EmployeeList} />
@@ -34,7 +36,7 @@ class App extends Component {
                             {/* Error Page */}
                             <Route component={Error404} />
                         </Switch>
-                    </Fragment>
+                    </div>
                 </BrowserRouter>
             </Fragment>
         )

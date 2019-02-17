@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react'
+import { map } from 'lodash'
 
 class Table extends Component {
     constructor(props) {
@@ -39,7 +40,7 @@ class TableHead extends Component {
             <thead>
                 <tr>
                     {
-                        _.map(properties, (value, key) => {
+                        map(properties, (value, key) => {
                             return (
                                 <th
                                     key={key}
@@ -65,11 +66,11 @@ class TableBody extends Component {
         return (
             <tbody>
                 {
-                    _.map(data, (value, key) => {
+                    map(data, (value, key) => {
                         return (
                             <tr key={key} onContextMenu={this.onContextMenu}>
                                 {
-                                    _.map(properties, (innerValue, innerKey) => {
+                                    map(properties, (innerValue, innerKey) => {
                                         return (
                                             <td
                                                 className={innerValue.toLowerCase().replace(" ", "-") + " " + (bodyClass ? bodyClass[innerValue] : "")}
@@ -89,4 +90,4 @@ class TableBody extends Component {
     }
 }
 
-export { Table }
+export default Table

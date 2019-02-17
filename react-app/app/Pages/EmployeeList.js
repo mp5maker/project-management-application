@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import { connect} from 'react-redux'
 
-import { Table } from '../Layouts/Table'
+import Navbar from '../Layouts/Navbar'
+import Table from '../Layouts/Table'
 
 class EmployeeList extends Component  {
     constructor(props) {
@@ -11,7 +12,7 @@ class EmployeeList extends Component  {
     render() {
         return (
             <div className="content">
-                hello
+                <Navbar />
                 <Table />
             </div>
                 // payload={payload}

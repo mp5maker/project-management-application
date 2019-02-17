@@ -1,0 +1,20 @@
+.navbar {
+    background-color: $white;
+    min-height: 64px;
+    border-bottom: 1px solid $light-grey;
+    transition: all 0.25s ease-out;
+    border-bottom: 1px solid $light-blue;
+    ul {
+        &.navbar-nav {
+            width: 100%;
+            .nav-item {
+                input {
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 2px;
+                    border: 1px solid $light-blue;
+                }
+            }
+        }
+    }
+}

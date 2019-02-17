@@ -11,4 +11,25 @@ body {
     height: 100%;
     font-family: 'Cabin', sans-serif;
     overflow-x: hidden;
+    .wrapper {
+        display: flex;
+        width: 100%;
+        align-items: stretch;
+        position: relative;
+        flex-direction: row;
+        .sidebar-container {
+            display: block;
+            position: relative;
+        }
+        .content {
+            margin-left: 200px;
+            width: 100%;
+            background-color: $white;
+            color: $black;
+            z-index: get-zindex(main);
+            overflow-y: auto;
+            padding-bottom: 300px;
+            min-height: 100vh;
+        }
+    }
 }
