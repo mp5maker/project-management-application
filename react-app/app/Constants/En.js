@@ -5,6 +5,7 @@ const En = {
     "APOSTROPHE": "'",
 
     // C
+    "CANCEL": "Cancel",
     "COMMA": ",",
     "CHECK": "Check",
     "CREATE": "Create",
@@ -17,25 +18,18 @@ const En = {
     "EMPLOYEE": "Employee",
 
     // F
-    "FEMALE": "Female",
+    "FILTER": "Filter",
 
     // G
     "GENDER": "Gender",
     "GO_BACK": "Go Back",
     
-    // I
-    "IPKA": "IPKA",
-
     // L
     "LOADING": "Loading",
     "LIST": "List",
 
-    // M
-    "MALE": "Male",
-    
     // P
     "PLEASE_WAIT": "Please, wait",
-    "PORTAL": "Portal",
     "PROFILE": "Profile",
     "PROJECTS": "Project",
     "PROJECT_MANGAGEMENT_APPLICATION": "PMR APP"

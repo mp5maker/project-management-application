@@ -5,9 +5,10 @@
 @import 'extended/custom';
 @import 'extended/common';
 @import 'extended/utilities';
+@import 'extended/modal';
 
 // Forms
-@import 'extended/input-field';
+@import 'extended/form';
 
 // Layouts
 @import 'extended/navbar';
@@ -16,4 +17,3 @@
 // Components
 @import 'extended/loading';
 @import 'extended/table';
-@import 'extended/modal';

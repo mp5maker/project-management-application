@@ -9,10 +9,15 @@
             width: 100%;
             .nav-item {
                 input {
-                    width: 100%;
+                    width: 90%;
                     padding: 10px;
                     border-radius: 2px;
                     border: 1px solid $light-blue;
+                    margin-right: 5px;
+                }
+                .btn {
+                    margin-left: 5px;
+                    margin-right: 5px;
                 }
             }
         }
